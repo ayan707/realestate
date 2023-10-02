@@ -1,0 +1,39 @@
+.search {
+    margin-top: 1rem;
+}
+
+.searchbar__placeholder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(230, 231, 232);
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.icon__search, .icon__mic {
+    color: rgb(124, 127, 131);
+    font-size: 22px;
+}
+
+.searchbar__placeholder > div {
+    display: flex;
+    align-items: center;
+    gap: rem;
+}
+
+.searchbar__placeholder  p {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    color: rgb(124, 127, 131);
+}
+
+.search__input {
+    width: 100%;
+    margin-left: 1rem;
+    outline: none;
+    height: 30px;
+    font-size: 1rem;
+    border: none;
+    background: rgb(230, 231, 232);
+}

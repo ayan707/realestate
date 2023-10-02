@@ -1,0 +1,45 @@
+div > h3 {
+    font-size: .7rem;
+    color: var(--text_color_secondary);
+    font-weight: 400;
+}
+
+.header__location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .1rem;
+}
+
+.header__location > h1  {
+    font-size: 1.3rem;
+    color: var(--text_color_primary);
+    font-weight: 600;
+}
+
+.div__bell {
+    position: relative;
+
+}
+
+.div__bell > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -15px;
+    right: -9px;
+    background-color: var(--color-red);
+    padding: .3rem;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    color: var(--color-white);
+    z-index: 1;
+    font-size: .9rem;
+}
+
+.bell__icon {
+    font-size: 22px;
+    color: var(--text_color_secondary);
+}

@@ -1,0 +1,74 @@
+
+.card {
+    display: flex;
+    gap: .6rem;
+    padding: .4rem;
+    border: 1px solid var(--border_color);
+    border-radius: 10px;
+    box-shadow: 1px 1px #ebe5e5;
+    margin-top: 1rem;
+}
+
+.card__img {
+    height: 100px;
+    width: 150px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.card__text {
+    width: 100%;
+}
+
+.card__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.4rem;
+}
+
+.house__type {
+    font-size: .8rem;
+    font-weight: 600;
+    color: var(--text_color_brown);
+}
+
+.house__address {
+    font-size: 1rem;
+    color: var(--text_color_primary);
+    font-weight: 600;
+    margin-top: .4rem;
+}
+
+.full__address {
+    font-size: .8rem;
+    color: var(--text_color_secondary);
+    margin-top: .4rem;
+}
+
+.card__logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .4rem;
+}
+
+.card__logos-icon {
+    color: var(--text_color_brown);
+}
+
+.card__logos > div > span {
+    font-size: .8rem;
+    padding: .2rem;
+    font-weight: bold;
+    color: var(--text_color_secondary);
+}
+
+.card__price {
+    font-weight: bold;
+    color: var(--text_color_primary);
+}
+
+.card__price span {
+    font-weight: 500;
+}

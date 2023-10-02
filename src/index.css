@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --background: rgb(249, 248, 240);
+  --text_color_primary: rgb(37, 37, 37);
+  --text_color_secondary: rgb(126, 120, 120);
+  --border_color: rgb(218, 210, 210);
+  --text_color_brown: rgb(124, 14, 14);
+  --color-red: rgb(231, 20, 20);
+  --color-white: white;
+  --color-green: rgb(9, 159, 9);
+  --color-yellow: rgb(230, 230, 18);
+  --color-blue: rgb(28, 28, 216);
+}
+
+body {
+  font-family: sans-serif;
+  height: 100vh;
+  background: var(--background);
+}
+
+a {
+  text-decoration: none;
+}

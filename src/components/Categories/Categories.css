@@ -1,0 +1,43 @@
+.main {
+    width: 100%;
+    margin-top: 1.2rem;
+}
+
+.slide__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .4rem;
+
+}
+
+.slide__div > div {
+    padding: .6rem;
+    border-radius: 100%;
+    border: 1px solid var(--border_color);
+    box-shadow: 2px;
+}
+
+.icon-house {
+    color: var(--color-red);
+    font-size: 20px;
+}
+
+.icon-apartment {
+    color: var(--color-green);
+    font-size: 20px;
+}
+.icon-tree {
+    color: var(--color-yellow);
+    font-size: 20px;
+}
+.icon-town {
+    color: var(--color-blue);
+    font-size: 20px;
+}
+
+.slide__div > p {
+    font-size: .7rem;
+    color: var(--text_color_secondary);
+}

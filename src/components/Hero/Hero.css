@@ -1,0 +1,14 @@
+.hero__div {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+.hero__div > h1 {
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: var(--text_color_primary);
+}
+
+.hero__div hr {
+    border: .5px solid var(--border_color);
+}
